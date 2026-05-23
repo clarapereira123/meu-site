@@ -16,3 +16,41 @@
 .menu-admin a:hover {
   color: #27ae60;
 }
+form {
+  max-width: 400px;        /* largura máxima do formulário */
+  margin: 20px auto;       /* centraliza na página */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+form label {
+  display: block;          /* cada label ocupa uma linha */
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+form input, 
+form textarea {
+  width: 100%;             /* ocupa toda a largura */
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #27ae60;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #219150; /* cor mais escura ao passar o mouse */
+}
