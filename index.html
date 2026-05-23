@@ -1,35 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Meu Site</title>
+  <meta charset="UTF-8">
+  <title>Environment Blog</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Meu Site</h1>
-        <nav>
-            <a href="index.html">Início</a>
-            <a href="detalhes.html">Detalhes</a>
-            <a href="autor.html">Sobre o Autor</a>
-        </nav>
-    </header>
+  <!-- Cabeçalho / Hero -->
+  <header class="hero">
+    <h1>Environment Blog</h1>
+    <p>Bem-vindo ao nosso blog! Aqui você encontrará práticas sustentáveis para o dia a dia.</p>
+    <a href="detalhes.html" class="btn">Comece Agora</a>
 
-    <main>
-        <h2>Bem-vindo ao meu site!</h2>
-        <p>Aqui você encontra minha coleção de objetos tema.</p>
-    </main>
+    <!-- Menu de navegação -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="detalhes.html">Detalhes</a></li>
+        <li><a href="autor.html">Sobre o Autor</a></li>
+        <li><a href="login.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <footer>
-        <p>Autor: Clara | <a href="autor.html">Sobre o Autor</a></p>
-    </footer>
+  <!-- Últimos Posts -->
+  <section class="posts">
+    <h2>Últimos Posts</h2>
+    <div class="post-grid">
+      <article>
+        <img src="img/post1.jpg" alt="Guia prático">
+        <h3>Guia Prático Para Uma Vida Mais Sustentável</h3>
+      </article>
+      <article>
+        <img src="img/post2.jpg" alt="Dicas sustentáveis">
+        <h3>Dicas Sustentáveis Para o Seu Dia a Dia</h3>
+      </article>
+      <article>
+        <img src="img/post3.jpg" alt="Compostagem">
+        <h3>Como Reduzir Desperdício com Compostagem</h3>
+      </article>
+    </div>
+  </section>
+
+  <!-- Sobre Nós -->
+  <section class="about">
+    <h2>Sobre Nós</h2>
+    <p>O Environment Blog é uma plataforma dedicada a compartilhar conhecimentos sobre sustentabilidade. Nossa missão é inspirar e engajar pessoas a adotarem um estilo de vida mais consciente.</p>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <h3>Conecte-se Conosco</h3>
+    <form>
+      <label for="email">Email*</label>
+      <input type="email" id="email" name="email" required>
+      <label>
+        <input type="checkbox"> Sim, desejo ofertas no meu endereço.
+      </label>
+      <button type="submit">Assinar</button>
+    </form>
+    <p>Autor: Clara | <a href="autor.html">Sobre o Autor</a></p>
+    <p>Contato: (11) 9 3456-7898 | blog@ambiental.com</p>
+  </footer>
 </body>
 </html>
-<header>
-  <h1>Meu Site sobre Meio Ambiente</h1>
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="detalhes.html">Detalhes</a>
-    <a href="autor.html">Sobre o Autor</a>
-    <a href="login.html">Admin</a>
-  </nav>
-</header>
