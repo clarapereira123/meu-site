@@ -152,20 +152,20 @@ form button:hover {
   background-color: #219150;
 }
 .posts li {
-  display: flex;            /* coloca texto e imagem lado a lado */
-  align-items: center;      /* alinha verticalmente */
-  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;   /* coloca em coluna */
+  align-items: center;      /* centraliza tudo */
+  margin-bottom: 20px;
 }
 
 .posts li span {
-  order: 1;                 /* texto vem primeiro */
   font-weight: bold;
   color: #2c3e50;
+  margin-bottom: 8px;       /* espaço entre título e imagem */
+  text-align: center;
 }
 
 .posts li img {
-  order: 2;                 /* imagem vem depois */
-  margin-left: 10px;        /* espaço entre texto e imagem */
-  width: 20px;              /* tamanho do ícone */
-  height: 20px;
+  width: 40px;              /* tamanho do ícone */
+  height: 40px;
 }
